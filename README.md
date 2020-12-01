@@ -11,5 +11,9 @@ Past years, also in Kotlin:
  * 2018 - [GitHub](https://github.com/tginsberg/advent-2018-kotlin/) and [Blog Posts](https://todd.ginsberg.com/post/advent-of-code/2018/)
  * 2019 - [GitHub](https://github.com/tginsberg/advent-2019-kotlin/) and [Blog Posts](https://todd.ginsberg.com/post/advent-of-code/2019/)
 
+#### Daily Solution Index for 2019
+|   Day   | Title                                         |  Links                                       |
+| --------|-----------------------------------------------|--------------------------------------------- |
+|    1    |  Report Repair                                | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day1/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day01.kt) [\[AoC\]](http://adventofcode.com/2020/day/1) |
 
 Copyright &copy; 2020 by Todd Ginsberg. 
