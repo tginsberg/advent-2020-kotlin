@@ -12,19 +12,19 @@ package com.ginsberg.advent2020
 class Day01(private val input: List<Int>) {
 
     fun solvePart1(): Int =
-        input.asSequence().mapNotNull { a  ->
+        input.asSequence().mapNotNull { a ->
             input.asSequence().mapNotNull { b ->
-                if(a+b == 2020) a*b else null
+                if (a + b == 2020) a * b else null
             }.firstOrNull()
         }.first()
 
     fun solvePart2(): Int =
-            input.asSequence().mapNotNull { a  ->
-                input.asSequence().mapNotNull { b ->
-                    input.asSequence().mapNotNull { c ->
-                        if(a+b+c == 2020) a*b*c else null
-                    }.firstOrNull()
+        input.asSequence().mapNotNull { a ->
+            input.asSequence().mapNotNull { b ->
+                input.asSequence().mapNotNull { c ->
+                    if (a + b + c == 2020) a * b * c else null
                 }.firstOrNull()
-            }.first()
+            }.firstOrNull()
+        }.first()
 
 }
