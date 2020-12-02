@@ -9,22 +9,32 @@
  */
 package com.ginsberg.advent2020
 
-class Day01(private val input: List<Int>) {
+class Day01(data: List<Int>) {
+
+    private val input = data.sorted()
 
     fun solvePart1(): Int =
-        input.asSequence().mapNotNull { a ->
-            input.asSequence().mapNotNull { b ->
-                if (a + b == 2020) a * b else null
-            }.firstOrNull()
+        input.mapIndexedNotNull { idx, a ->
+            input
+                .drop(idx + 1)
+                .dropWhile { a + it < 2020 }
+                .take(1)
+                .firstOrNull { a + it == 2020 }
+                ?.let { a * it }
         }.first()
 
     fun solvePart2(): Int =
-        input.asSequence().mapNotNull { a ->
-            input.asSequence().mapNotNull { b ->
-                input.asSequence().mapNotNull { c ->
-                    if (a + b + c == 2020) a * b * c else null
+        input.mapIndexedNotNull { aIdx, a ->
+            input
+                .drop(aIdx + 1)
+                .mapIndexedNotNull { bIdx, b ->
+                    input
+                        .drop(bIdx + 1)
+                        .dropWhile { a + b + it < 2020 }
+                        .take(1)
+                        .firstOrNull { a + b + it == 2020 }
+                        ?.let { a * b * it }
                 }.firstOrNull()
-            }.firstOrNull()
         }.first()
 
 }
