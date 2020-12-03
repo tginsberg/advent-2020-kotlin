@@ -17,9 +17,9 @@ class Day03(private val forest: List<String>) {
     fun solvePart1(): Int =
         treesOnSlope(3 to 1)
 
-    fun solvePart2(): Int =
+    fun solvePart2(): Long =
         listOf(1 to 1, 3 to 1, 5 to 1, 7 to 1, 1 to 2)
-            .map { treesOnSlope(it) }
+            .map { treesOnSlope(it).toLong() }
             .reduce { a, b -> a * b }
 
     private fun treesOnSlope(slope: Pair<Int,Int>) =
