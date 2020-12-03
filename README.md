@@ -16,5 +16,6 @@ Past years, also in Kotlin:
 | --------|-----------------------------------------------|--------------------------------------------- |
 |    1    |  Report Repair                                | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day1/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day01.kt) [\[AoC\]](http://adventofcode.com/2020/day/1) |
 |    2    |  Password Philosophy                          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day2/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day02.kt) [\[AoC\]](http://adventofcode.com/2020/day/2) |
+|    3    |  Toboggan Trajectory                          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day3/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day03.kt) [\[AoC\]](http://adventofcode.com/2020/day/3) |
 
 Copyright &copy; 2020 by Todd Ginsberg. 
