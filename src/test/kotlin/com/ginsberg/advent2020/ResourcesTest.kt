@@ -9,6 +9,7 @@ package com.ginsberg.advent2020
 import com.ginsberg.advent2020.Resources.resourceAsList
 import com.ginsberg.advent2020.Resources.resourceAsListOfInt
 import com.ginsberg.advent2020.Resources.resourceAsString
+import com.ginsberg.advent2020.Resources.resourceAsText
 import org.assertj.core.api.Assertions.assertThat
 import org.assertj.core.api.Assertions.assertThatThrownBy
 import org.junit.jupiter.api.Nested
@@ -35,6 +36,19 @@ class ResourcesTest {
             assertThatThrownBy {
                 resourceAsString("this_does_not_exist.txt", delimiter = "???")
             }.isInstanceOf(IllegalArgumentException::class.java)
+        }
+    }
+
+    @Nested
+    inner class ResourceAsTextTests {
+        @Test
+        fun `reads file as-is into one String`() {
+            assertThat(resourceAsText("read_file_test_1.txt"))
+                .isEqualTo("""
+                    1
+                    2
+                    3
+                """.trimIndent())
         }
     }
 

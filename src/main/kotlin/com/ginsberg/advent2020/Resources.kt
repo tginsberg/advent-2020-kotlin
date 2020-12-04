@@ -11,6 +11,9 @@ internal object Resources {
     fun resourceAsString(fileName: String, delimiter: String = ""): String =
             resourceAsList(fileName).reduce { a, b -> "$a$delimiter$b" }
 
+    fun resourceAsText(fileName: String): String =
+        File(fileName.toURI()).readText()
+
     fun resourceAsList(fileName: String): List<String> =
             File(fileName.toURI()).readLines()
 
