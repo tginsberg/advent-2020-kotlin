@@ -18,5 +18,6 @@ Past years, also in Kotlin:
 |    2    |  Password Philosophy                          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day2/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day02.kt) [\[AoC\]](http://adventofcode.com/2020/day/2) |
 |    3    |  Toboggan Trajectory                          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day3/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day03.kt) [\[AoC\]](http://adventofcode.com/2020/day/3) |
 |    4    |  Passport Processing                          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day4/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day04.kt) [\[AoC\]](http://adventofcode.com/2020/day/4) |
+|    5    |  Binary Boarding                              | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day5/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day05.kt) [\[AoC\]](http://adventofcode.com/2020/day/5) |
 
 Copyright &copy; 2020 by Todd Ginsberg. 
