@@ -51,10 +51,10 @@ class Day05Test {
 
         @Test
         fun `Actual answer`() {
-            // When
+            // Act
             val answer = Day05(resourceAsList("day05.txt")).solvePart2()
 
-            // Then
+            // Assert
             assertThat(answer).isEqualTo(633)
         }
     }

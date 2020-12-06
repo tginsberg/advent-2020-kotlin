@@ -90,28 +90,28 @@ class Day04Test {
 
         @Test
         fun `Matches example - all valid`() {
-            // When
+            // Act
             val answer = Day04(valid).solvePart2()
 
-            // Then
+            // Assert
             assertThat(answer).isEqualTo(4)
         }
 
         @Test
         fun `Matches example - all invalid`() {
-            // When
+            // Act
             val answer = Day04(invalid).solvePart2()
 
-            // Then
+            // Assert
             assertThat(answer).isEqualTo(0)
         }
 
         @Test
         fun `Actual answer`() {
-            // When
+            // Act
             val answer = Day04(resourceAsText("day04.txt")).solvePart2()
 
-            // Then
+            // Assert
             assertThat(answer).isEqualTo(111)
         }
     }

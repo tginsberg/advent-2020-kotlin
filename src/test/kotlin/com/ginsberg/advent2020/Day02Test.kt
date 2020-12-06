@@ -47,19 +47,19 @@ class Day02Test {
     inner class Part2 {
         @Test
         fun `Matches example`() {
-            // When
+            // Act
             val answer = Day02(input).solvePart2()
 
-            // Then
+            // Assert
             assertThat(answer).isEqualTo(1)
         }
 
         @Test
         fun `Actual answer`() {
-            // When
+            // Act
             val answer = Day02(resourceAsList("day02.txt")).solvePart2()
 
-            // Then
+            // Assert
             assertThat(answer).isEqualTo(346)
         }
     }
