@@ -8,6 +8,7 @@ package com.ginsberg.advent2020
 
 import com.ginsberg.advent2020.Resources.resourceAsList
 import com.ginsberg.advent2020.Resources.resourceAsListOfInt
+import com.ginsberg.advent2020.Resources.resourceAsListOfLong
 import com.ginsberg.advent2020.Resources.resourceAsString
 import com.ginsberg.advent2020.Resources.resourceAsText
 import org.assertj.core.api.Assertions.assertThat
@@ -66,6 +67,13 @@ class ResourcesTest {
             assertThat(resourceAsListOfInt("read_file_test_1.txt"))
                     .hasSize(3)
                     .containsExactly(1, 2, 3)
+        }
+
+        @Test
+        fun `reads lines as Longs`() {
+            assertThat(resourceAsListOfLong("read_file_test_1.txt"))
+                .hasSize(3)
+                .containsExactly(1L, 2L, 3L)
         }
 
         @Test
