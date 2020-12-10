@@ -23,6 +23,7 @@ Past years, also in Kotlin:
 |    7    |  Handy Haversacks                             | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day7/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day07.kt) [\[AoC\]](http://adventofcode.com/2020/day/7) |
 |    8    |  Handheld Halting                             | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day8/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day08.kt) [\[AoC\]](http://adventofcode.com/2020/day/8) |
 |    9    |  Encoding Error                               | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day9/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day09.kt) [\[AoC\]](http://adventofcode.com/2020/day/9) |
+|    10   |  Adapter Array                                | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day10/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day10.kt) [\[AoC\]](http://adventofcode.com/2020/day/10) |
      
     
 Copyright &copy; 2020 by Todd Ginsberg. 
