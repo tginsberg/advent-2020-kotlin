@@ -27,6 +27,7 @@ Past years, also in Kotlin:
 |    11   |  Seating System                               | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day11/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day11.kt) [\[AoC\]](http://adventofcode.com/2020/day/11) |
 |    12   |  Rain Risk                                    | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day12/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day12.kt) [\[AoC\]](http://adventofcode.com/2020/day/12) |
 |    13   |  Shuttle Search                               | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day13/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day13.kt) [\[AoC\]](http://adventofcode.com/2020/day/13) |
+|    14   |  Docking Data                                 | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day14/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day14.kt) [\[AoC\]](http://adventofcode.com/2020/day/14) |
      
     
 Copyright &copy; 2020 by Todd Ginsberg. 
