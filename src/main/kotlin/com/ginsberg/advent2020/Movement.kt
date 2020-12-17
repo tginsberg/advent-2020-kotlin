@@ -66,3 +66,34 @@ data class Point2D(val x: Int, val y: Int) {
         val ORIGIN = Point2D(0, 0)
     }
 }
+
+interface Point {
+    val neighbors: List<Point>
+}
+
+data class Point3D(val x: Int, val y: Int, val z: Int) : Point {
+    override val neighbors: List<Point3D> by lazy {
+        (x - 1..x + 1).flatMap { dx ->
+            (y - 1..y + 1).flatMap { dy ->
+                (z - 1..z + 1).mapNotNull { dz ->
+                    Point3D(dx, dy, dz).takeUnless { it == this }
+                }
+            }
+        }
+    }
+}
+
+data class Point4D(val x: Int, val y: Int, val z: Int, val w: Int) : Point {
+    override val neighbors: List<Point4D> by lazy {
+        (x - 1..x + 1).flatMap { dx ->
+            (y - 1..y + 1).flatMap { dy ->
+                (z - 1..z + 1).flatMap { dz ->
+                    (w - 1..w + 1).mapNotNull { dw ->
+                        Point4D(dx, dy, dz, dw).takeUnless { it == this }
+                    }
+                }
+            }
+        }
+    }
+}
+
