@@ -14,10 +14,10 @@ class Day18(input: List<String>) {
     private val equations = input.map { it.replace(" ", "") }
 
     fun solvePart1(): Long =
-        equations.sumToLongBy { solvePart1(it.iterator()) }
+        equations.sumOf { solvePart1(it.iterator()) }
 
     fun solvePart2(): Long =
-        equations.sumToLongBy { solvePart2(it.iterator()) }
+        equations.sumOf { solvePart2(it.iterator()) }
 
     private fun solvePart1(equation: CharIterator): Long {
         val numbers = mutableListOf<Long>()
