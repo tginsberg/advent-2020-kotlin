@@ -32,6 +32,7 @@ Past years, also in Kotlin:
 |    16   |  Ticket Translation                           | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day16/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day16.kt) [\[AoC\]](http://adventofcode.com/2020/day/16) |
 |    17   |  Conway Cubes                                 | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day17/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day17.kt) [\[AoC\]](http://adventofcode.com/2020/day/17) |
 |    18   |  Operation Order                              | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day18/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day18.kt) [\[AoC\]](http://adventofcode.com/2020/day/18) |
+|    19   |  Monster Messages                             | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day19/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day19.kt) [\[AoC\]](http://adventofcode.com/2020/day/19) |
      
     
 Copyright &copy; 2020 by Todd Ginsberg.
