@@ -4,8 +4,8 @@
 
 /**
  * Advent of Code 2020, Day 22 - Crab Combat
- * Problem Description: http://adventofcode.com/2020/day/21
- * Blog Post/Commentary: https://todd.ginsberg.com/post/advent-of-code/2020/day21/
+ * Problem Description: http://adventofcode.com/2020/day/22
+ * Blog Post/Commentary: https://todd.ginsberg.com/post/advent-of-code/2020/day22/
  */
 package com.ginsberg.advent2020
 
