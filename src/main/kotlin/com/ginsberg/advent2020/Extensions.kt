@@ -10,3 +10,6 @@ fun Iterable<Long>.product(): Long =
 
 fun Char.asLong(): Long =
     this.toString().toLong()
+
+fun Char.asInt(): Int =
+    this.toString().toInt()

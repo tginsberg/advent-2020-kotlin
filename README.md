@@ -36,6 +36,7 @@ Past years, also in Kotlin:
 |    20   |  Jurassic Jigsaw                              | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day20/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day20.kt) [\[AoC\]](http://adventofcode.com/2020/day/20) |
 |    21   |  Allergen Assessment                          | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day21/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day21.kt) [\[AoC\]](http://adventofcode.com/2020/day/21) |
 |    22   |  Crab Combat                                  | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day22/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day22.kt) [\[AoC\]](http://adventofcode.com/2020/day/22) |
+|    23   |  Crab Cups                                    | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day23/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day23.kt) [\[AoC\]](http://adventofcode.com/2020/day/23) |
      
     
 Copyright &copy; 2020 by Todd Ginsberg.
