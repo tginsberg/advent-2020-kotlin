@@ -81,6 +81,29 @@ data class Point3D(val x: Int, val y: Int, val z: Int) : Point {
             }
         }
     }
+
+    val hexNeighbors: List<Point3D> by lazy {
+        HEX_OFFSETS.map { this + it.value }
+    }
+
+    operator fun plus(other: Point3D): Point3D =
+        Point3D(x + other.x, y + other.y, z + other.z)
+
+    fun hexNeighbor(dir: String): Point3D =
+        if (dir in HEX_OFFSETS) HEX_OFFSETS.getValue(dir) + this
+        else throw IllegalArgumentException("No dir: $dir")
+
+    companion object {
+        val ORIGIN = Point3D(0, 0, 0)
+        val HEX_OFFSETS = mapOf(
+            "e" to Point3D(1, -1, 0),
+            "w" to Point3D(-1, 1, 0),
+            "ne" to Point3D(1, 0, -1),
+            "nw" to Point3D(0, 1, -1),
+            "se" to Point3D(0, -1, 1),
+            "sw" to Point3D(-1, 0, 1),
+        )
+    }
 }
 
 data class Point4D(val x: Int, val y: Int, val z: Int, val w: Int) : Point {
