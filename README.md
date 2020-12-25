@@ -38,6 +38,7 @@ Past years, also in Kotlin:
 |    22   |  Crab Combat                                  | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day22/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day22.kt) [\[AoC\]](http://adventofcode.com/2020/day/22) |
 |    23   |  Crab Cups                                    | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day23/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day23.kt) [\[AoC\]](http://adventofcode.com/2020/day/23) |
 |    24   |  Lobby Layout                                 | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day24/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day24.kt) [\[AoC\]](http://adventofcode.com/2020/day/24) |
+|    25   |  Combo Breaker                                | [\[Blog Post\]](https://todd.ginsberg.com/post/advent-of-code/2020/day25/) [\[Code\]](https://github.com/tginsberg/advent-2020-kotlin/blob/master/src/main/kotlin/com/ginsberg/advent2020/Day25.kt) [\[AoC\]](http://adventofcode.com/2020/day/25) |
      
     
 Copyright &copy; 2020 by Todd Ginsberg.
